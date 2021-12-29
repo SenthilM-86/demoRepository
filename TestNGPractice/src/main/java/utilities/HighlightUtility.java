@@ -8,7 +8,7 @@ public class HighlightUtility {
 	
 	public static void highlightElement(WebDriver driver, WebElement element) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].setAttribute('style','background: yellow', 'border: 3px solid blue');", element);
+		js.executeScript("arguments[0].setAttribute('style','background: yellow','border: 3px solid blue');", element);
 	}
 
 }
