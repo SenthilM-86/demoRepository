@@ -7,6 +7,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 // This is a Screenshot Reusable Utility
+// This is a commit from Github
 public class ScreenshotUtility {
 	
 	public static String getScreenshot(WebDriver driver) {
